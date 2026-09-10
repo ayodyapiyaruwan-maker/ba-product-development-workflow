@@ -30,9 +30,13 @@
 
 **[Confirmed]** The following data fields will be fed from Accredo ERP to Vision (the order prediction engine): customer name, account ID, contact person(s), contact info, order history summary, product name, product code, quantity.
 
-**[Open Question]** The stakeholder referenced "bulk food industry" customers when listing the data fields above. Is this initiative scoped to a **specific customer segment/industry** (e.g., bulk food industry customers only), or was this just an illustrative example? This affects scope and needs explicit confirmation — not assumed either way.
+**[Confirmed — via architecture diagram]** The data flow is: **Accredo ERP → Adapter/Integration Service → Vision Order Prediction Engine**. The Adapter/Integration Service also integrates with a separate **Customer Data** store (used by Vision), an **Admin Service**, and an **Agent Service**. Vision stores its output in its own **separate Vision Database** (distinct from the SR6 Database). The **Vision Module embedded in SR6** reads/writes the Vision Database; SR6's own **Controllers and Views** read/write the SR6 Database. So Vision does not receive data through the pre-existing SR6–Accredo connection — it has its own integration path via the Adapter/Integration Service.
 
-**[Open Question]** Earlier discovery confirmed SR6 CRM is already connected to Accredo ERP, and Vision will be embedded into SR6. This message states data is "fed by Accredo to the order prediction engine [Vision]" directly. Does data flow **Accredo → SR6 → Vision**, or **Accredo → Vision directly** (separately from the existing SR6–Accredo connection)? Not yet confirmed — matters for integration understanding.
+**[Open Question]** What are the **Admin Service** and **Agent Service** shown in the architecture — what do they do, and are they existing or to-be-built? Not yet explained.
+
+**[Confirmed]** The business's customers span **different industries**, not just one. There is a specific **customer proposal** driving the initial build focus — development is prioritising that first, but the underlying architecture is intended as a **generic product usable by any customer that uses Accredo ERP**, not something bespoke to one customer only.
+
+**[Open Question]** Is the "customer proposal" driving the initial focus the same as the earlier-mentioned **"bulk food industry"** customer example, or a different/specific named customer? Not yet confirmed — needed to correctly bound the first release.
 
 ## 2. Context and Background
 

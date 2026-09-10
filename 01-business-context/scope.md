@@ -39,8 +39,8 @@
 
 | Phase | Scope Summary | Target Timeframe |
 |---|---|---|
-| Phase 1 | [To be completed] | [To be completed] |
-| Phase 2 | [To be completed] | [To be completed] |
+| Phase 1 | **[Confirmed direction, not yet formally approved]** Build for a specific first customer proposal (identity not yet confirmed — possibly the "bulk food industry" customer mentioned earlier; needs confirming). | [To be completed] |
+| Future phase(s) | **[Confirmed direction, not yet formally approved]** Stakeholder states Vision is intended as a **generic product usable by any customer that uses Accredo ERP**, not bespoke to one customer. Scope/timing of broader rollout not yet defined. | [To be completed] |
 
 ## 5. Scope Change Control
 
