@@ -28,7 +28,7 @@
 
 | Source System | Data Provided | Integration Method (API/File/DB/Manual) | Frequency | Owner |
 |---|---|---|---|---|
-| [To be completed] | [To be completed] | [To be completed] | [To be completed] | [To be completed] |
+| Accredo ERP **[Confirmed to exist; used today for selling products to customers, i.e. order processing]** | Presumed: historical customer order/purchase data, used today by the Sales Service Team manually. **[Open Question — not yet confirmed which specific data fields/entities are available or needed]** | [Open Question — not yet confirmed: API, file export, direct DB access, or manual only] | [Open Question] | [Open Question] |
 
 ## 4. Data Quality Rules
 
