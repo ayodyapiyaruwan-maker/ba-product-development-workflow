@@ -30,6 +30,16 @@
 
 **[Confirmed]** Urgency rating is based on **order history**, but the specific calculation criteria have **not yet been decided by the business**. This is not a knowledge gap on the BA's side — it is an undecided business decision. **[Decision Needed]** The Business Analyst/Product Owner must define the urgency rating criteria before Vision's design can proceed.
 
+**[Proposed — drafted at the stakeholder's explicit request; NOT a decision, requires review/approval]** A candidate urgency rating model for the cleaning-products/hotel-industry context, combining five weighted factors into a single score (e.g., 0–100):
+
+1. **Predicted-order timing** — how soon/overdue the predicted reorder date is within the 24–72 hour window (closer/overdue = more urgent). Weighted highest, since this is the core "act now" signal.
+2. **Estimated stock depletion** — using the hotel's historical consumption rate vs. their last order quantity, estimate how many days of supply they likely have left (fewer days left = more urgent). Relevant because hotels can't have gaps in essential cleaning/hygiene supply for guest-facing and compliance reasons.
+3. **Product criticality** — core hygiene/sanitation items (e.g., disinfectant, surface cleaner) weighted higher than discretionary/promotional items, since a stock-out on essentials has bigger operational impact for a hotel.
+4. **Customer value/tier** — higher-value or strategic hotel accounts weighted higher, so rep attention goes where relationship/revenue impact is greatest.
+5. **Prediction confidence** — how consistent the customer's historical order cycle is (a hotel with a very regular 30-day cycle = high confidence; erratic history = lower confidence, which could reduce urgency or flag the prediction for manual review rather than automatic high-priority placement).
+
+Example structure: `Urgency Score = (W1 × Timing) + (W2 × Stock Depletion) + (W3 × Product Criticality) + (W4 × Customer Tier) + (W5 × Prediction Confidence)`, with weights (W1–W5) to be set/tuned by the business. **This is a starting proposal only** — factors, weights, and even whether all five are relevant to Jasco's actual operation need the Business Analyst/Product Owner's review before this becomes an approved requirement.
+
 **[Confirmed]** The following data fields will be fed from Accredo ERP to Vision (the order prediction engine): customer name, account ID, contact person(s), contact info, order history summary, product name, product code, quantity.
 
 **[Confirmed — via architecture diagram]** The data flow is: **Accredo ERP → Adapter/Integration Service → Vision Order Prediction Engine**. The Adapter/Integration Service also integrates with a separate **Customer Data** store (used by Vision), an **Admin Service**, and an **Agent Service**. Vision stores its output in its own **separate Vision Database** (distinct from the SR6 Database). The **Vision Module embedded in SR6** reads/writes the Vision Database; SR6's own **Controllers and Views** read/write the SR6 Database. So Vision does not receive data through the pre-existing SR6–Accredo connection — it has its own integration path via the Adapter/Integration Service.

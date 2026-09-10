@@ -37,7 +37,7 @@
 |---|---|---|---|---|
 | NFR-030 | **[Confirmed default access model]** Field Sales Representatives have access to SR6 (base) by default; the Service Team has access to Vision by default. Dual access (a person with both SR6 and Vision) is an **exception**, granted by the Sales Manager/Team Manager or the Admin role. | [Open Question — not yet defined] | [Open Question] | Draft |
 | NFR-031 | **[Confirmed]** The Manager's elevated visibility (prediction list, performance dashboard, promotion suggestions) is scoped to **their own team only**, not the whole organisation. | [Open Question — not yet defined] | [Open Question] | Draft |
-| NFR-032 | **[Confirmed]** The Manager has the **same functionality as a rep** — i.e., the Manager can act on a prediction (send as-is/edit/add/decline) on behalf of a rep on their team, not just view. **[Confirmed business rule]** When a Manager acts on a rep's behalf, the rep must be **notified/informed** that the Manager acted for them. Exact notification mechanism (in-app, email, etc.) not yet defined. | [Open Question — notification mechanism not yet defined] | [Open Question] | Draft |
+| NFR-032 | **[Confirmed]** The Manager has the **same functionality as a rep** — i.e., the Manager can act on a prediction (send as-is/edit/add/decline) on behalf of a rep on their team, not just view. **[Confirmed business rule]** When a Manager acts on a rep's behalf, the rep must be **notified/informed** via **both in-app notification and email**. | Rep notified via both channels, every time a Manager acts on their behalf | Must | Draft |
 
 ### 2.5 Usability & Accessibility
 
