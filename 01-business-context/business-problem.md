@@ -20,9 +20,13 @@
 
 **[Confirmed]** SR6 CRM already exists/is already built. The SR6–Accredo connection is also already built. **Vision does not yet exist and is something to be built** as part of this initiative; once built, it will be embedded into SR6 for the Service Team to use.
 
-**[Confirmed]** The desired future-state outreach channels are **SMS and Email only** — not phone calls. (The current manual process uses phone calls; this is a deliberate change in the future state, not yet explicitly confirmed as intentional — see open question below.)
+**[Correction — supersedes the previous version of this line]** Phone calls are **not** being dropped. Today, phone call is the **only** mechanism reps have to contact customers. In the future state, the first outreach attempt will be an SMS or Email (with AI suggesting which of the two is the best method for that customer/rep to use); if the rep judges a phone call is needed, they place it next as a manual follow-up. So the future channel set is SMS + Email (AI-suggested, first attempt) plus phone call (rep-initiated, follow-up) — phone call remains in the picture throughout.
 
-**[Open Question]** Is limiting the future-state channel to SMS/Email (dropping phone calls) an intentional business decision, or just how it's been described so far? Worth explicitly confirming since it changes rep working habits.
+**[Confirmed]** The future-state prediction list will be **ordered/prioritised by an "urgency rating"**, and each item will show customer details plus **which product(s) and what quantities** the customer is likely to order.
+
+**[Open Question]** Is the SMS/Email actually **sent automatically by the system** once Vision/AI decides the best channel, or does the AI only **recommend** the channel and the rep manually triggers the send? This materially affects the process design and needs confirming.
+
+**[Open Question]** How is the "urgency rating" defined/calculated (e.g., based on how overdue the predicted reorder is, order value, customer tier)? Not yet provided — do not assume a formula.
 
 ## 2. Context and Background
 
@@ -35,9 +39,7 @@
 
 *How are things done today, if at all? What workarounds exist?*
 
-**[Confirmed]** Today the process is entirely manual: the Sales Service Team looks at previous order data (held in Accredo ERP) and guesses which customers are likely to reorder, then calls the customer directly.
-
-**[Open Question]** The original ask described outreach via "email or message," but the current-state description here uses "give a call." Is phone call an acceptable/desired channel for the future automated process too, or should the future state be limited to email/message as originally stated? Needs confirming — not yet a decision.
+**[Confirmed]** Today the process is entirely manual: the Sales Service Team looks at previous order data (held in Accredo ERP) and guesses which customers are likely to reorder. **Phone call is currently the only mechanism reps have to contact customers** — there is no SMS/Email outreach step today.
 
 ## 4. Impact of the Problem
 

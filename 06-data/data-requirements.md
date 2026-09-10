@@ -12,17 +12,22 @@
 
 | Entity | Description | Source System(s) | Owner | Sensitivity (Public/Internal/Confidential/Restricted) |
 |---|---|---|---|---|
-| [To be completed] | [To be completed] | [To be completed] | [To be completed] | [To be completed] |
+| Order Prediction **[Confirmed to be needed — this is what Vision must produce]** | A predicted reorder for a specific customer + product, within a 24–72 hour window | Vision (generated), sourced from Accredo order history via SR6 | [Open Question] | [Open Question] |
 
 ## 2. Entity Attributes
 
 *Duplicate this table per entity.*
 
-### Entity: [Name]
+### Entity: Order Prediction
 
 | Attribute | Data Type | Required? | Format/Validation Rule | Default | Notes |
 |---|---|---|---|---|---|
-| [To be completed] | [To be completed] | [Y/N] | [To be completed] | [To be completed] | [To be completed] |
+| Customer (details) | [Open Question — which fields exactly] | Y **[Confirmed needed]** | [To be completed] | — | Stakeholder said "customer details" without specifying exact fields |
+| Predicted Product(s) | [Open Question] | Y **[Confirmed needed]** | [To be completed] | — | |
+| Predicted Quantity | [Open Question] | Y **[Confirmed needed]** | [To be completed] | — | |
+| Predicted Order Window | [Open Question] | Y **[Confirmed needed]** | [To be completed] | — | Stated as 24–72 hours |
+| Urgency Rating | [Open Question] | Y **[Confirmed needed]** | [Open Question — definition/calculation not yet provided] | — | Used to prioritise/order the prediction list |
+| AI-Suggested Channel (SMS/Email) | [Open Question] | Y **[Confirmed needed]** | [Open Question — how the AI decides is not yet provided] | — | |
 
 ## 3. Data Sources & Integrations
 
