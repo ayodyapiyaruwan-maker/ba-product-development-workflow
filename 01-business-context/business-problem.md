@@ -16,11 +16,13 @@
 
 **[Confirmed]** No automated order-prediction capability exists today anywhere in the business. Generating the prediction is new ground for this initiative (see Current State below).
 
-**[Confirmed]** Resolved: the order prediction engine is a separate, named tool called **"Vision"**. It is intended to be integrated as a plug-in into a CRM called **SR6 (Sales Rep 6)**, which the Service Team is supposed to use, and which is connected to Accredo ERP. This is consistent with "nothing exists today" — Vision/SR6 integration is the planned future-state capability, not something already running.
+**[Confirmed]** Resolved: the order prediction engine is a separate, named tool called **"Vision"**. It is intended to be integrated (embedded) into a CRM called **SR6 (Sales Rep 6)**, which the Service Team is supposed to use, and which is connected to Accredo ERP. This is consistent with "nothing exists today" — Vision/SR6 integration is the planned future-state capability, not something already running.
 
-**[Open Question]** Is SR6 (CRM) already in use by the Service Team today, or is it a new tool being introduced together with Vision as part of this initiative? Is the SR6–Accredo connection already established, or does it also need to be built?
+**[Confirmed]** SR6 CRM already exists/is already built. The SR6–Accredo connection is also already built. **Vision does not yet exist and is something to be built** as part of this initiative; once built, it will be embedded into SR6 for the Service Team to use.
 
-**[Open Question]** Is "Vision" an already-selected/licensed vendor product ready to be configured and plugged in, or is it a concept that still needs to be built or procured?
+**[Confirmed]** The desired future-state outreach channels are **SMS and Email only** — not phone calls. (The current manual process uses phone calls; this is a deliberate change in the future state, not yet explicitly confirmed as intentional — see open question below.)
+
+**[Open Question]** Is limiting the future-state channel to SMS/Email (dropping phone calls) an intentional business decision, or just how it's been described so far? Worth explicitly confirming since it changes rep working habits.
 
 ## 2. Context and Background
 

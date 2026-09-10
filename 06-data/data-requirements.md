@@ -29,8 +29,8 @@
 | Source System | Data Provided | Integration Method (API/File/DB/Manual) | Frequency | Owner |
 |---|---|---|---|---|
 | Accredo ERP **[Confirmed to exist; used today for selling products to customers, i.e. order processing]** | Presumed: historical customer order/purchase data, used today by the Sales Service Team manually. **[Open Question — not yet confirmed which specific data fields/entities are available or needed]** | [Open Question — not yet confirmed: API, file export, direct DB access, or manual only] | [Open Question] | [Open Question] |
-| SR6 (Sales Rep 6) CRM **[Confirmed to be named as the CRM the Service Team is supposed to use; status as already-in-use vs newly introduced is an Open Question]** | Presumed: surfaces order predictions to reps for outreach; connects to Accredo ERP. | **[Confirmed: connects to Accredo ERP]**; exact method (API/DB/file) not yet confirmed | [Open Question] | [Open Question] |
-| Vision (order prediction engine) **[Confirmed as the name of the tool; status as an already-selected/licensed product vs still-to-be-built/procured is an Open Question]** | Generates the customer + product reorder predictions, derived from historical buying patterns. | **[Confirmed: plugs into SR6 CRM]**; exact method not yet confirmed | [Open Question] | [Open Question] |
+| SR6 (Sales Rep 6) CRM **[Confirmed: already built/existing, already connected to Accredo ERP]** | Presumed: will surface Vision's order predictions to reps for outreach. | **[Confirmed: connected to Accredo ERP already]**; exact method (API/DB/file) not yet confirmed | [Open Question] | [Open Question] |
+| Vision (order prediction engine) **[Confirmed: does not exist yet — to be built as part of this initiative, then embedded into SR6]** | Generates the customer + product reorder predictions, derived from historical buying patterns (presumably sourced from Accredo via SR6). | To be embedded into SR6 CRM (build detail — not yet a confirmed technical design) | [Open Question] | [Open Question] |
 
 ## 4. Data Quality Rules
 

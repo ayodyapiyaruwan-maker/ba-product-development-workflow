@@ -10,13 +10,17 @@
 
 *What is definitely being delivered as part of this initiative.*
 
-- [To be completed]
+- **[Proposed — not yet approved]** Build "Vision," the order prediction engine (customer + product level, 24–72 hour window, derived from historical buying patterns).
+- **[Proposed — not yet approved]** Embed/integrate Vision into the existing SR6 (Sales Rep 6) CRM.
+- **[Proposed — not yet approved]** Enable Service Team outreach to predicted customers via SMS and Email.
 
 ## 2. Out of Scope
 
 *What is explicitly excluded, and why (e.g., future phase, different team, not aligned to objectives).*
 
-- [To be completed]
+- **[Proposed — not yet approved]** Building or modifying SR6 CRM itself (already exists).
+- **[Proposed — not yet approved]** Building or modifying the SR6–Accredo ERP connection (already exists).
+- **[Open Question]** Phone call outreach — current process uses calls, but future state is stated as SMS/Email only; excluding calls from scope is proposed but not yet explicitly confirmed as a deliberate decision (see `business-problem.md`).
 
 ## 3. Scope Boundaries by Area
 
