@@ -35,7 +35,7 @@
 
 | ID | Requirement | Target/Metric | Priority | Status |
 |---|---|---|---|---|
-| NFR-030 | [To be completed] | [To be completed] | [Must/Should/Could] | Draft |
+| NFR-030 | **[Confirmed direction, not yet a fully specified requirement]** Role-based access control is needed: Field Sales Representatives and Service Team both use Vision/SR6, access levels are defined by the Sales Manager/Team Manager, and there is a separate Admin role. Exact permission matrix (who can see/do what) not yet defined. | [Open Question — not yet defined] | [Open Question] | Draft |
 
 ### 2.5 Usability & Accessibility
 

@@ -32,7 +32,7 @@
 
 **[Confirmed — via architecture diagram]** The data flow is: **Accredo ERP → Adapter/Integration Service → Vision Order Prediction Engine**. The Adapter/Integration Service also integrates with a separate **Customer Data** store (used by Vision), an **Admin Service**, and an **Agent Service**. Vision stores its output in its own **separate Vision Database** (distinct from the SR6 Database). The **Vision Module embedded in SR6** reads/writes the Vision Database; SR6's own **Controllers and Views** read/write the SR6 Database. So Vision does not receive data through the pre-existing SR6–Accredo connection — it has its own integration path via the Adapter/Integration Service.
 
-**[Open Question]** What are the **Admin Service** and **Agent Service** shown in the architecture — what do they do, and are they existing or to-be-built? Not yet explained.
+**[Open Question]** What are the **Admin Service** and **Agent Service** shown in the architecture — what do they do, and are they existing or to-be-built? Not yet explained. **[Partial update]** Both Field Sales Representatives and Service Team can use Vision, with access levels defined by a Sales Manager/Team Manager, plus a separate Admin role — see `stakeholders.md` (STK-003, STK-004). Whether the Admin role corresponds to the diagram's "Admin Service" is still unconfirmed.
 
 **[Confirmed]** The business's customers span **different industries**, not just one. There is a specific **customer proposal** driving the initial build focus — development is prioritising that first, but the underlying architecture is intended as a **generic product usable by any customer that uses Accredo ERP**, not something bespoke to one customer only.
 
