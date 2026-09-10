@@ -37,4 +37,4 @@
 
 | ID | Risk | Likelihood | Impact | Mitigation | Owner |
 |---|---|---|---|---|---|
-| RSK-001 | [To be completed] | [Low/Med/High] | [Low/Med/High] | [To be completed] | [To be completed] |
+| RSK-001 | **[Confirmed as a real gap]** Urgency rating calculation criteria (how "order history" translates into a rating) has not been decided by the business. Vision's core prioritisation logic cannot be finalised until this is resolved. | [To be completed] | Medium–High — blocks Vision design/build | Business Analyst/Product Owner to define and approve urgency rating criteria before requirements are finalised for this feature. | [To be completed] |

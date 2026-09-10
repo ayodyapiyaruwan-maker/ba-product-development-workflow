@@ -24,9 +24,15 @@
 
 **[Confirmed]** The future-state prediction list will be **ordered/prioritised by an "urgency rating"**, and each item will show customer details plus **which product(s) and what quantities** the customer is likely to order.
 
-**[Open Question]** Is the SMS/Email actually **sent automatically by the system** once Vision/AI decides the best channel, or does the AI only **recommend** the channel and the rep manually triggers the send? This materially affects the process design and needs confirming.
+**[Confirmed]** Resolved: AI **only recommends** the channel (SMS or Email) — it does not send automatically. The rep manually decides what happens next, choosing to: (a) send the predicted order as-is, (b) edit the products on the predicted order, or (c) add new products to the order, before any outreach goes out.
 
-**[Open Question]** How is the "urgency rating" defined/calculated (e.g., based on how overdue the predicted reorder is, order value, customer tier)? Not yet provided — do not assume a formula.
+**[Confirmed]** Urgency rating is based on **order history**, but the specific calculation criteria have **not yet been decided by the business**. This is not a knowledge gap on the BA's side — it is an undecided business decision. **[Decision Needed]** The Business Analyst/Product Owner must define the urgency rating criteria before Vision's design can proceed.
+
+**[Confirmed]** The following data fields will be fed from Accredo ERP to Vision (the order prediction engine): customer name, account ID, contact person(s), contact info, order history summary, product name, product code, quantity.
+
+**[Open Question]** The stakeholder referenced "bulk food industry" customers when listing the data fields above. Is this initiative scoped to a **specific customer segment/industry** (e.g., bulk food industry customers only), or was this just an illustrative example? This affects scope and needs explicit confirmation — not assumed either way.
+
+**[Open Question]** Earlier discovery confirmed SR6 CRM is already connected to Accredo ERP, and Vision will be embedded into SR6. This message states data is "fed by Accredo to the order prediction engine [Vision]" directly. Does data flow **Accredo → SR6 → Vision**, or **Accredo → Vision directly** (separately from the existing SR6–Accredo connection)? Not yet confirmed — matters for integration understanding.
 
 ## 2. Context and Background
 
