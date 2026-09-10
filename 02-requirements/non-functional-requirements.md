@@ -35,7 +35,8 @@
 
 | ID | Requirement | Target/Metric | Priority | Status |
 |---|---|---|---|---|
-| NFR-030 | **[Confirmed direction, not yet a fully specified requirement]** Role-based access control is needed: Field Sales Representatives and Service Team both use Vision/SR6, access levels are defined by the Sales Manager/Team Manager, and there is a separate Admin role. Exact permission matrix (who can see/do what) not yet defined. | [Open Question — not yet defined] | [Open Question] | Draft |
+| NFR-030 | **[Confirmed default access model]** Field Sales Representatives have access to SR6 (base) by default; the Service Team has access to Vision by default. Dual access (a person with both SR6 and Vision) is an **exception**, granted by the Sales Manager/Team Manager or the Admin role. The Manager also has elevated visibility: the entire prediction list across all reps (not just their own), the performance dashboard, and promotion suggestions. | [Open Question — not yet defined] | [Open Question] | Draft |
+| NFR-031 | **[Open Question, explicitly raised by the stakeholder as still needing an answer]** Does "the entire list of all reps" for the Manager mean all reps across the whole organisation, or just the reps in that manager's own team? Also open: can the Manager only *view* the list/dashboard/promotions, or can they also *act* (send/edit) on a rep's behalf? | [Open Question] | [Open Question] | Draft |
 
 ### 2.5 Usability & Accessibility
 

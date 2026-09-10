@@ -40,6 +40,10 @@
 
 **[Resolved]** The "customer proposal" driving the initial focus is confirmed to be **Jasco Distributing** (see signed proposal, logged as a Source below).
 
+**[Confirmed]** Jasco Distributing's customer base includes multiple segments, but **hotels** is confirmed as the primary segment identified so far, and the **prototype will be based on/scoped to hotels first**. Other segments exist and will be considered later — hotels is the initial focus, not the only one.
+
+**[Reaffirmed — still open, not resolved]** The urgency rating calculation criteria remain **undecided**. The stakeholder has explicitly confirmed this should stay logged as an open question requiring an answer, rather than being resolved now — see RSK-001 in `assumptions-and-constraints.md`.
+
 **[Confirmed]** Jasco Distributing's business is **cleaning products**. This is consistent with the proposal's own promotion examples ("Promote Nitrile gloves to all hotels," "promote mop pads to those that order the appropriate mop") and **corrects** the earlier "bulk food industry" mention from discovery — that was not accurate; cleaning products is the confirmed industry.
 
 **[Confirmed — from the signed proposal's High-Level Requirements]** The following are the vendor-recorded high-level requirements for this initiative:

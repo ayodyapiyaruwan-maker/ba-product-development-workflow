@@ -16,6 +16,8 @@
 |---|---|---|---|---|---|
 | v0.1 | [To be completed] | [To be completed] | [Low/Mid/High] | [YYYY-MM-DD] | Draft |
 
+**[Confirmed scoping decision, not yet built]** The prototype will be based on/scoped to the **hotels** customer segment first (one of several segments Jasco Distributing serves). This does not mean a prototype exists yet — it defines which segment the first prototype should represent when work begins.
+
 ## 3. Screen/Flow Coverage
 
 *Which screens or flows does the prototype currently cover, and what's missing?*
