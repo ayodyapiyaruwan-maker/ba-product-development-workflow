@@ -40,7 +40,7 @@
 
 **[Resolved]** The "customer proposal" driving the initial focus is confirmed to be **Jasco Distributing** (see signed proposal, logged as a Source below).
 
-**[Open Question]** The proposal's own examples of promotions ("Promote Nitrile gloves to all hotels," "promote mop pads to those that order the appropriate mop") suggest Jasco Distributing may be a **cleaning/hygiene supplies distributor**, not necessarily "bulk food industry" as separately mentioned earlier in discovery. Is "bulk food industry" a customer segment *within* Jasco's own customer base (i.e., one of the industries Jasco sells to), or was that a misstatement? Needs explicit confirmation — not assumed either way.
+**[Confirmed]** Jasco Distributing's business is **cleaning products**. This is consistent with the proposal's own promotion examples ("Promote Nitrile gloves to all hotels," "promote mop pads to those that order the appropriate mop") and **corrects** the earlier "bulk food industry" mention from discovery — that was not accurate; cleaning products is the confirmed industry.
 
 **[Confirmed — from the signed proposal's High-Level Requirements]** The following are the vendor-recorded high-level requirements for this initiative:
 1. Implement SR6 Base and the Vision base module for order prediction, using **12–24 months** of sales history to determine usage/seasonality patterns.
