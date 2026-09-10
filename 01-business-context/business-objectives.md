@@ -18,8 +18,10 @@
 
 | ID | Objective | Success Metric (KPI) | Target | Baseline | Target Date | Owner |
 |---|---|---|---|---|---|---|
-| OBJ-001 (Proposed, not yet approved) | Increase conversion of predicted reorders into materialised orders via proactive Sales Service Team outreach | [Open Question — not yet defined] | [Open Question] | [Open Question] | [Open Question] | [Open Question] |
-| OBJ-002 (Proposed, not yet approved) | Strengthen long-term relationships with existing customers through consistent, automated outreach | [Open Question — not yet defined] | [Open Question] | [Open Question] | [Open Question] | [Open Question] |
+| OBJ-001 | **[Confirmed — direct from the signed Native Software proposal for Jasco Distributing]** Grow (web) sales by using sales history to provide predicted orders to customers. | [Open Question — proposal does not state a numeric target] | [Open Question] | [Open Question] | [Open Question] | [Open Question — likely Jasco Distributing's Sales/Product Owner] |
+| OBJ-002 | **[Confirmed — direct from the signed Native Software proposal for Jasco Distributing]** Allow the Customer Services Team to build on the already-good customer relationship by providing predicted orders via easy and efficient communications. | [Open Question — proposal does not state a numeric target] | [Open Question] | [Open Question] | [Open Question] | [Open Question] |
+
+*Note: these two objectives are Confirmed as the client's stated objectives (they appear verbatim in the signed Phase 1 Proposal), but they are not yet SMART — no numeric KPI/target/date has been provided. This gap should be raised with the Business Analyst/Product Owner rather than assumed.*
 
 ## 3. Objective-to-Problem Linkage
 

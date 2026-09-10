@@ -16,9 +16,11 @@
 
 **[Confirmed]** No automated order-prediction capability exists today anywhere in the business. Generating the prediction is new ground for this initiative (see Current State below).
 
-**[Confirmed]** Resolved: the order prediction engine is a separate, named tool called **"Vision"**. It is intended to be integrated (embedded) into a CRM called **SR6 (Sales Rep 6)**, which the Service Team is supposed to use, and which is connected to Accredo ERP. This is consistent with "nothing exists today" — Vision/SR6 integration is the planned future-state capability, not something already running.
+**[Confirmed]** Resolved: the order prediction engine is a separate, named tool called **"Vision"**. It is intended to be integrated (embedded) into a CRM called **SR6 (Sales Rep 6)**, which the Service Team is supposed to use, and which is connected to Accredo ERP. This is consistent with "nothing exists today" — Vision/SR6 integration is the planned future-state capability, not something already running internally.
 
-**[Confirmed]** SR6 CRM already exists/is already built. The SR6–Accredo connection is also already built. **Vision does not yet exist and is something to be built** as part of this initiative; once built, it will be embedded into SR6 for the Service Team to use.
+**[Correction — supersedes the previous version of this line, per the signed Native Software proposal for Jasco Distributing]** SR6 and Vision are **not being built from scratch by this initiative**. Both are existing products of the vendor **Native Software**, branded "integraSell Sales Rep 6" and "integraSell Vision." Vision is currently in **"alpha" testing** at the vendor. What this initiative involves is the **base installation** of SR6 and the Vision module for Jasco Distributing (the client), plus scoping any **customisations** beyond that base (e.g., the still-undecided urgency rating logic) through a separate, further-costed analysis — which is what this discovery process is feeding into.
+
+**[Confirmed]** The client is **Jasco Distributing**. The vendor/solution provider is **Native Software**. A formal Proposal document (v1.0, 28 Jul 2026, "Proposal – Order Prediction and Sales Team Support") has been produced by Native Software for Jasco Distributing, covering the **Phase 1 "Proposal"** stage of their project lifecycle. Per that document's own Responsibilities Matrix, signing this Proposal is agreement to move into **Phase 2 "Detailed Requirements Analysis"** — which aligns with where this BA discovery currently sits. Signing it is not yet approval to build; a further **Project Specification** must be produced and signed off before build starts.
 
 **[Correction — supersedes the previous version of this line]** Phone calls are **not** being dropped. Today, phone call is the **only** mechanism reps have to contact customers. In the future state, the first outreach attempt will be an SMS or Email (with AI suggesting which of the two is the best method for that customer/rep to use); if the rep judges a phone call is needed, they place it next as a manual follow-up. So the future channel set is SMS + Email (AI-suggested, first attempt) plus phone call (rep-initiated, follow-up) — phone call remains in the picture throughout.
 
@@ -36,7 +38,26 @@
 
 **[Confirmed]** The business's customers span **different industries**, not just one. There is a specific **customer proposal** driving the initial build focus — development is prioritising that first, but the underlying architecture is intended as a **generic product usable by any customer that uses Accredo ERP**, not something bespoke to one customer only.
 
-**[Open Question]** Is the "customer proposal" driving the initial focus the same as the earlier-mentioned **"bulk food industry"** customer example, or a different/specific named customer? Not yet confirmed — needed to correctly bound the first release.
+**[Resolved]** The "customer proposal" driving the initial focus is confirmed to be **Jasco Distributing** (see signed proposal, logged as a Source below).
+
+**[Open Question]** The proposal's own examples of promotions ("Promote Nitrile gloves to all hotels," "promote mop pads to those that order the appropriate mop") suggest Jasco Distributing may be a **cleaning/hygiene supplies distributor**, not necessarily "bulk food industry" as separately mentioned earlier in discovery. Is "bulk food industry" a customer segment *within* Jasco's own customer base (i.e., one of the industries Jasco sells to), or was that a misstatement? Needs explicit confirmation — not assumed either way.
+
+**[Confirmed — from the signed proposal's High-Level Requirements]** The following are the vendor-recorded high-level requirements for this initiative:
+1. Implement SR6 Base and the Vision base module for order prediction, using **12–24 months** of sales history to determine usage/seasonality patterns.
+2. Cater for **product replacements** (where products are superseded).
+3. Send predicted orders via **email and/or SMS**, allowing the Customer Service Team user to **personalise the message** if required.
+4. Include **promotions** in the messaging, specific to the customer.
+5. Provide a way to **check performance** of the prediction and messaging systems.
+
+**[Confirmed — new detail from the proposal, not previously known]** Beyond the rep-side "send as-is / edit / add" decision already logged, the proposal describes what happens **after** a message is sent: the **customer** may reply directly to the SMS/Email (e.g., "Yes please"), and an **AI Message Handler** automatically interprets the reply and acts — submitting the order, editing and submitting it, marking it declined, or asking the customer to confirm a swap. The message also contains a link to a **customer-facing Order Portal** (no login required — a unique code identifies the customer) where the customer can themselves swap, remove, or add products and submit the order directly.
+
+**[Confirmed — from the proposal]** Promotions can be included in predicted-order messaging via three approaches: (a) **customer segment**-based (e.g., a product promoted to a whole segment), (b) **cross-sell** (promote a related product when a specific product is on the order), and (c) **dynamic**, where AI scans the predicted order, order history, and current promotions to select good-match promotional items.
+
+**[Confirmed — from the proposal, resolves the Reporting/Performance discovery topic]** A **performance dashboard** is available to both the Customer Service Team user and their manager, showing: prediction accuracy, message engagement, promotion success, sales generated from Vision predictions, and the count of swaps/other order changes.
+
+**[Confirmed — from the proposal's Key Risks]** The vendor recommends **launching with manual messages only (no scheduled/automated sending) for a handful of customers** first, to thoroughly test the prediction system before enabling the optional Scheduler component (which can automate nightly prediction generation and timed SMS/email sending). This refines the earlier-confirmed "AI recommends, rep manually decides" flow — that manual mode is explicitly the recommended starting point, with scheduled automation as a later, optional step.
+
+**[Confirmed — from the proposal's Out of Scope / commercial terms]** The currently signed proposal covers **base installation only** (SR6 Base: $2,380; Vision Base module: $3,780; total $6,160 excl. GST, one-off) plus ongoing monthly fees ($80/month for 2 licences, $35/rep/month for additional licences). **No customisations are included.** Anything beyond the five high-level requirements above — including the still-undecided urgency rating logic, specific promotion segment definitions, and the exact access-level permission matrix — counts as a customisation requiring further analysis and separate costing before it can be built.
 
 ## 2. Context and Background
 
@@ -79,3 +100,4 @@
 | Source | Type | Date | Notes |
 |---|---|---|---|
 | Discovery conversation with Business Analyst/Product Owner | Interview | 2026-09-10 | Initial framing of the Sales Service Team's order-prediction outreach need. |
+| "Proposal – Order Prediction and Sales Team Support," Native Software, for Jasco Distributing, v1.0 | Document (signed Proposal, Phase 1) | 28 Jul 2026 (proposal date); received 2026-09-10 | Authoritative source for objectives, high-level requirements, vendor/client identity, base-vs-customisation scope boundary, and Phase 1→2 gating. |
