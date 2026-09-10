@@ -20,7 +20,7 @@
 
 | ID | Constraint | Type (Budget/Time/Technical/Regulatory/Resource/Other) | Description | Impact if Violated |
 |---|---|---|---|---|
-| CON-001 | [To be completed] | [To be completed] | [To be completed] | [To be completed] |
+| CON-001 | **[Confirmed, stated by stakeholder — not yet fully clarified]** Technical approach already named: order predictions must be delivered via a tool called "Vision," plugged into the "SR6" (Sales Rep 6) CRM, which connects to Accredo ERP. | Technical | The Service Team is expected to consume predictions through SR6 CRM (with Vision as the prediction engine), not through a new/different interface. **[Open Question]** Whether SR6 and its Accredo connection already exist or are also being newly introduced is not yet confirmed. | If assumed incorrectly, requirements and developer handoff could target the wrong integration surface. |
 
 ## 3. Dependencies
 

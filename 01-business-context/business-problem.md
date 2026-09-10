@@ -16,7 +16,11 @@
 
 **[Confirmed]** No automated order-prediction capability exists today anywhere in the business. Generating the prediction is new ground for this initiative (see Current State below).
 
-**[Open Question]** The stakeholder mentioned "Accredo ERP ... and order prediction engine" in the same breath, but also separately confirmed "nothing exists today." This needs clarifying: is there any prediction engine (even a basic/legacy one, inside or outside Accredo) that already exists in any form, or was "order prediction engine" referring to the capability this initiative is meant to introduce? Currently assumed to mean the latter, but not yet confirmed.
+**[Confirmed]** Resolved: the order prediction engine is a separate, named tool called **"Vision"**. It is intended to be integrated as a plug-in into a CRM called **SR6 (Sales Rep 6)**, which the Service Team is supposed to use, and which is connected to Accredo ERP. This is consistent with "nothing exists today" — Vision/SR6 integration is the planned future-state capability, not something already running.
+
+**[Open Question]** Is SR6 (CRM) already in use by the Service Team today, or is it a new tool being introduced together with Vision as part of this initiative? Is the SR6–Accredo connection already established, or does it also need to be built?
+
+**[Open Question]** Is "Vision" an already-selected/licensed vendor product ready to be configured and plugged in, or is it a concept that still needs to be built or procured?
 
 ## 2. Context and Background
 
