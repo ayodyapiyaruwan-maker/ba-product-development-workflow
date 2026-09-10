@@ -46,7 +46,7 @@
 | Phase | Scope Summary | Target Timeframe |
 |---|---|---|
 | Vendor Phase 1 — Proposal | **[Confirmed]** Native Software's Proposal document produced and (per the user) signed off by Jasco Distributing, covering base SR6 + Vision installation only. | Proposal dated 28 Jul 2026; valid for one month from review/release per its own terms |
-| Vendor Phase 2 — Detailed Requirements Analysis | **[Confirmed as the current stage]** This is the stage this BA discovery workspace is operating in — capturing Jasco's detailed requirements (e.g., urgency rating criteria, access-level matrix, promotion segment definitions) ahead of a costed Project Specification. | In progress |
+| Vendor Phase 2 — Detailed Requirements Analysis | **[Confirmed as the current stage]** This is the stage this BA discovery workspace is operating in — capturing Jasco's detailed requirements (e.g., urgency rating criteria, access-level matrix, promotion segment definitions) ahead of a costed Project Specification. **[Confirmed]** This workspace is building this Detailed Requirements Analysis from scratch — there is no pre-existing Native Software brief or template being followed; all detail is being elicited directly from the Business Analyst/Product Owner. | In progress |
 | Vendor Phase 3 — Project Specification & Build | Not yet started — requires sign-off of the Detailed Requirements Analysis and Project Specification per the proposal's Responsibilities Matrix. | Not yet defined |
 | Future phase(s) (broader rollout) | **[Confirmed direction, not yet formally approved]** Vision is intended as a **generic product usable by any customer that uses Accredo ERP**, not bespoke to Jasco only. Scope/timing of broader rollout not yet defined. | [To be completed] |
 
