@@ -35,8 +35,9 @@
 
 | ID | Requirement | Target/Metric | Priority | Status |
 |---|---|---|---|---|
-| NFR-030 | **[Confirmed default access model]** Field Sales Representatives have access to SR6 (base) by default; the Service Team has access to Vision by default. Dual access (a person with both SR6 and Vision) is an **exception**, granted by the Sales Manager/Team Manager or the Admin role. The Manager also has elevated visibility: the entire prediction list across all reps (not just their own), the performance dashboard, and promotion suggestions. | [Open Question — not yet defined] | [Open Question] | Draft |
-| NFR-031 | **[Open Question, explicitly raised by the stakeholder as still needing an answer]** Does "the entire list of all reps" for the Manager mean all reps across the whole organisation, or just the reps in that manager's own team? Also open: can the Manager only *view* the list/dashboard/promotions, or can they also *act* (send/edit) on a rep's behalf? | [Open Question] | [Open Question] | Draft |
+| NFR-030 | **[Confirmed default access model]** Field Sales Representatives have access to SR6 (base) by default; the Service Team has access to Vision by default. Dual access (a person with both SR6 and Vision) is an **exception**, granted by the Sales Manager/Team Manager or the Admin role. | [Open Question — not yet defined] | [Open Question] | Draft |
+| NFR-031 | **[Confirmed]** The Manager's elevated visibility (prediction list, performance dashboard, promotion suggestions) is scoped to **their own team only**, not the whole organisation. | [Open Question — not yet defined] | [Open Question] | Draft |
+| NFR-032 | **[Confirmed]** The Manager has the **same functionality as a rep** — i.e., the Manager can act on a prediction (send as-is/edit/add/decline) on behalf of a rep on their team, not just view. **[Confirmed business rule]** When a Manager acts on a rep's behalf, the rep must be **notified/informed** that the Manager acted for them. Exact notification mechanism (in-app, email, etc.) not yet defined. | [Open Question — notification mechanism not yet defined] | [Open Question] | Draft |
 
 ### 2.5 Usability & Accessibility
 
