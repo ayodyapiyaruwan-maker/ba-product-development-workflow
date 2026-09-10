@@ -12,7 +12,7 @@
 
 | ID | Name / Group | Role/Title | Department | Type (Sponsor/SME/End User/Approver/Impacted) | Interest | Influence (High/Med/Low) | Contact |
 |---|---|---|---|---|---|---|---|
-| STK-001 | [To be completed] | [To be completed] | [To be completed] | [To be completed] | [To be completed] | [To be completed] | [To be completed] |
+| STK-001 | Sales Service Team | Service Team Rep | Sales/Customer Service (dept name TBD) | End User | **[Confirmed]** Wants a list of 24–72 hour order predictions for existing customers, to reach out via email/message and convert to a materialised order; also motivated by building long-term customer relationships. | [Open Question — TBD] | [Open Question — TBD] |
 
 ## 2. Power/Interest Grid
 

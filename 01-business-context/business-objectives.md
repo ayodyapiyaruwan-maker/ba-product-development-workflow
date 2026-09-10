@@ -18,8 +18,8 @@
 
 | ID | Objective | Success Metric (KPI) | Target | Baseline | Target Date | Owner |
 |---|---|---|---|---|---|---|
-| OBJ-001 | [To be completed] | [To be completed] | [To be completed] | [To be completed] | [YYYY-MM-DD] | [To be completed] |
-| OBJ-002 | [To be completed] | [To be completed] | [To be completed] | [To be completed] | [YYYY-MM-DD] | [To be completed] |
+| OBJ-001 (Proposed, not yet approved) | Increase conversion of predicted reorders into materialised orders via proactive Sales Service Team outreach | [Open Question — not yet defined] | [Open Question] | [Open Question] | [Open Question] | [Open Question] |
+| OBJ-002 (Proposed, not yet approved) | Strengthen long-term relationships with existing customers through consistent, automated outreach | [Open Question — not yet defined] | [Open Question] | [Open Question] | [Open Question] | [Open Question] |
 
 ## 3. Objective-to-Problem Linkage
 
